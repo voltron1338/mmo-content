@@ -1,0 +1,44 @@
+{
+	"format": "mmo-content-manifest",
+	"formatVersion": 1,
+	"contentVersion": "2026-11-22.1938",
+	"zone": "test",
+	"files": [
+		{
+			"slot": 0,
+			"name": "layout_test_room",
+			"kind": "layout",
+			"platform": "all",
+			"bytes": 1231,
+			"check": 796173243,
+			"sha256": "1ca9ea543ccad6f340497eba1eb85e6b98640823507bf3778594cddbc596047d"
+		},
+		{
+			"slot": 1,
+			"name": "tex_stonewall_pc",
+			"kind": "texbatch",
+			"platform": "pc",
+			"bytes": 5593079,
+			"check": 874111688,
+			"sha256": "3926319e390f14151fce5bc84e1efbd15bb834d13e7a1a16e3138b92f3409393"
+		},
+		{
+			"slot": 2,
+			"name": "tex_stonewall_quest",
+			"kind": "texbatch",
+			"platform": "quest",
+			"bytes": 835244,
+			"check": 472900695,
+			"sha256": "c6055a1c140308a755b4b4929f19ad4a07f716f9778efbdd04dbc5c09e13dce6"
+		},
+		{
+			"slot": 3,
+			"name": "skeleton_boneatlas",
+			"kind": "texbatch",
+			"platform": "all",
+			"bytes": 112356,
+			"check": 992598450,
+			"sha256": "80db7082c458873d345cfd197c61307b8878cd3ea27e0c67872c7b7d9ac6de74"
+		}
+	]
+}
