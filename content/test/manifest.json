@@ -1,7 +1,7 @@
 {
 	"format": "mmo-content-manifest",
-	"formatVersion": 1,
-	"contentVersion": "2026-11-22.1938",
+	"formatVersion": 2,
+	"contentVersion": "2026-11-22.2007",
 	"zone": "test",
 	"files": [
 		{
@@ -9,6 +9,7 @@
 			"name": "layout_test_room",
 			"kind": "layout",
 			"platform": "all",
+			"group": "json",
 			"bytes": 1231,
 			"check": 796173243,
 			"sha256": "1ca9ea543ccad6f340497eba1eb85e6b98640823507bf3778594cddbc596047d"
@@ -18,6 +19,7 @@
 			"name": "tex_stonewall_pc",
 			"kind": "texbatch",
 			"platform": "pc",
+			"group": "json",
 			"bytes": 5593079,
 			"check": 874111688,
 			"sha256": "3926319e390f14151fce5bc84e1efbd15bb834d13e7a1a16e3138b92f3409393"
@@ -27,18 +29,40 @@
 			"name": "tex_stonewall_quest",
 			"kind": "texbatch",
 			"platform": "quest",
-			"bytes": 835244,
-			"check": 472900695,
-			"sha256": "c6055a1c140308a755b4b4929f19ad4a07f716f9778efbdd04dbc5c09e13dce6"
+			"group": "json",
+			"bytes": 211434,
+			"check": 1353771102,
+			"sha256": "3a6611bd4fdeb3f5924189208db170d884110887f219bb0a1126caff88d26777"
 		},
 		{
 			"slot": 3,
 			"name": "skeleton_boneatlas",
 			"kind": "texbatch",
 			"platform": "all",
+			"group": "json",
 			"bytes": 112356,
 			"check": 992598450,
 			"sha256": "80db7082c458873d345cfd197c61307b8878cd3ea27e0c67872c7b7d9ac6de74"
+		},
+		{
+			"slot": 4,
+			"name": "bundle_pc",
+			"kind": "bundle",
+			"platform": "pc",
+			"group": "bin",
+			"bytes": 4280688,
+			"check": 1170057044,
+			"sha256": "e9aa78d72add355b582bec079a670c38682c03ea283238503e445aac0ef1beb3"
+		},
+		{
+			"slot": 5,
+			"name": "bundle_quest",
+			"kind": "bundle",
+			"platform": "quest",
+			"group": "bin",
+			"bytes": 244272,
+			"check": 1921606987,
+			"sha256": "3d4a08f124f6e48eed88a708dc87fc8f9292730bd9281e888b20850bc675dc90"
 		}
 	]
 }
